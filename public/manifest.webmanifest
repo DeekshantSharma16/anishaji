@@ -1,0 +1,40 @@
+{
+  "name": "Wellness with Anisha",
+  "short_name": "Anisha",
+  "description": "Osteopathy, physiotherapy, yoga and Art of Living programs with Dr. Anisha.",
+  "id": "/",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5efe4",
+  "theme_color": "#2e2820",
+  "orientation": "portrait",
+  "categories": ["health", "lifestyle", "medical"],
+  "lang": "en-IN",
+  "dir": "ltr",
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "48x48", "type": "image/x-icon" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Book a session",
+      "short_name": "Book",
+      "url": "/?source=pwa#book",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Manage my booking",
+      "short_name": "Manage",
+      "url": "/?source=pwa#manage",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

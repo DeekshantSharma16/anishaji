@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2e2820" />
+    <title>Offline · Wellness with Anisha</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <style>
+      :root {
+        --paper: #f5efe4;
+        --cream: #fbf7ef;
+        --ink: #2e2820;
+        --clay: #8a4b2a;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: Georgia, "Times New Roman", serif;
+      }
+      .card {
+        max-width: 460px;
+        width: 100%;
+        background: var(--cream);
+        border-radius: 18px;
+        padding: 40px 32px;
+        text-align: center;
+        box-shadow: 0 18px 40px rgba(46, 40, 32, 0.12);
+      }
+      img {
+        width: 64px;
+        height: 64px;
+        border-radius: 16px;
+      }
+      h1 {
+        margin: 20px 0 10px;
+        font-size: 27px;
+        line-height: 1.2;
+      }
+      p {
+        margin: 0 0 24px;
+        font-family:
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          sans-serif;
+        font-size: 15px;
+        line-height: 1.65;
+        color: #4a4239;
+      }
+      button {
+        font: inherit;
+        font-family:
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        color: var(--cream);
+        background: var(--clay);
+        border: 0;
+        border-radius: 999px;
+        padding: 12px 26px;
+        cursor: pointer;
+      }
+      .note {
+        margin: 22px 0 0;
+        font-size: 13px;
+        color: #7d7365;
+      }
+      a {
+        color: var(--clay);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <img src="/icon-192.png" alt="Wellness with Anisha" width="64" height="64" />
+      <h1>You're offline</h1>
+      <p>
+        This page needs a connection. Your saved booking code still works once you're back online,
+        and nothing you submitted has been lost.
+      </p>
+      <button type="button" onclick="location.reload()">Try again</button>
+      <p class="note">
+        Need us urgently? Email
+        <a href="mailto:hello@wellnesswithanisha.com">hello@wellnesswithanisha.com</a>.
+      </p>
+    </main>
+  </body>
+</html>

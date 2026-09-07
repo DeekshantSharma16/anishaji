@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /intake
+
+Sitemap: https://book-smile-flow.lovable.app/sitemap.xml

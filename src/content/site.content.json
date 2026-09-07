@@ -1,0 +1,158 @@
+{
+  "brand": {
+    "name": "Wellness with Anisha",
+    "shortName": "Anisha",
+    "tagline": "Your Complete Wellness Journey — Where Science Meets Serenity",
+    "description": "Osteopathy, physiotherapy, authentic yoga and Art of Living mindfulness practices with Dr. Anisha, bridging traditional healing therapies with modern science.",
+    "email": "anishasinghthakuri13@gmail.com",
+    "whatsapp": "916360196188",
+    "phoneDisplay": "+91 63601 96188",
+    "address": {
+      "street": "Brigade Meadows Wisteria, 21st KM, Kanakapura Main Rd, near Art of Living Ashram",
+      "locality": "Udayapura, Kaggalipura",
+      "region": "KA",
+      "postalCode": "560082",
+      "country": "IN"
+    },
+    "mapsQuery": "Brigade+Meadows+Wisteria+Kanakapura+Main+Rd+Udayapura+560082",
+    "social": {
+      "instagram": "https://instagram.com/",
+      "linkedin": "https://linkedin.com/"
+    }
+  },
+
+  "theme": {
+    "paper": "#F6F2EA",
+    "cream": "#FFFCF6",
+    "ink": "#221E19",
+    "clay": "#A8623C",
+    "moss": "#4E6B52",
+    "sand": "#E4D5BC",
+    "bone": "#EBE3D6",
+    "radius": "0.75rem"
+  },
+
+  "nav": {
+    "wordmarkLead": "wellness",
+    "wordmarkTail": "with anisha",
+    "ctaLabel": "Book a session",
+    "links": [
+      { "href": "/#work", "label": "The work", "internal": false },
+      { "href": "/#pricing", "label": "Pricing", "internal": false },
+      { "href": "/#story", "label": "About", "internal": false },
+      { "href": "/#faq", "label": "FAQ", "internal": false },
+      { "href": "/notes", "label": "Notes", "internal": true },
+      { "href": "/#visit", "label": "Visit", "internal": false },
+      { "href": "/#manage", "label": "Manage", "internal": false }
+    ]
+  },
+
+  "hero": {
+    "eyebrow": "Osteopathy · Physiotherapy · Yoga · Art of Living",
+    "titleLead": "Your complete wellness journey, where",
+    "titleHighlight": "science meets serenity",
+    "body": "As an Osteopathy Practitioner, Physiotherapy Specialist, and Certified Yoga and Art of Living Instructor, Dr. Anisha bridges traditional healing therapies with modern science to restore balance and vitality to your life.",
+    "primaryCtaLabel": "Start your journey today",
+    "secondaryCtaLabel": "Not sure where to start?",
+    "imageCaption": "touch, as diagnosis",
+    "stats": [
+      { "value": "3+", "label": "years of experience" },
+      { "value": "10+", "label": "wellness camps" },
+      { "value": "50+", "label": "Art of Living programs" },
+      { "value": "1000+", "label": "happy clients" }
+    ]
+  },
+
+  "marquee": {
+    "items": [
+      "osteopathy",
+      "physiotherapy",
+      "authentic yoga",
+      "mindfulness",
+      "Art of Living programs",
+      "natural, sustainable healing"
+    ]
+  },
+
+  "services": {
+    "eyebrow": "what we do",
+    "title": "The work",
+    "note": "Different bodies need different conversations. Start where you are.",
+    "ctaLabel": "Book this session",
+    "items": [
+      {
+        "slug": "osteopathy",
+        "name": "Osteopathy",
+        "duration": "60 min",
+        "detail": "Hands-on structural treatment that finds the cause of pain rather than chasing the symptom, so the body can hold its own alignment again.",
+        "tags": ["pain relief", "alignment"],
+        "tone": "moss"
+      },
+      {
+        "slug": "physiotherapy",
+        "name": "Physiotherapy",
+        "duration": "45 min",
+        "detail": "Targeted rehabilitation and movement work to rebuild strength, restore mobility, and keep an old injury from becoming a permanent habit.",
+        "tags": ["mobility", "rehab"],
+        "tone": "cream"
+      },
+      {
+        "slug": "yoga-and-meditation",
+        "name": "Yoga and Meditation",
+        "duration": "60 min",
+        "detail": "Authentic yoga and guided meditation, taught by a certified instructor and shaped around your body rather than a class plan.",
+        "tags": ["breath", "flexibility"],
+        "tone": "sand"
+      },
+      {
+        "slug": "art-of-living-programs",
+        "name": "Art of Living Programs",
+        "duration": "Multi-day",
+        "detail": "Mindfulness and breath programs from the Art of Living tradition, including the Happiness Program, for stress relief and lasting inner calm.",
+        "tags": ["mindfulness", "stress relief"],
+        "tone": "cream"
+      }
+    ]
+  },
+
+  "story": {
+    "eyebrow": "the person behind the hands",
+    "title": "Journey to wellness with Anisha.",
+    "paragraphs": [
+      "Welcome to your holistic guide to a healthier, happier, and more balanced life. Here you will discover the transformative power of osteopathy, physiotherapy, Art of Living programs, and yoga sessions, all designed to nurture your mind, body, and soul.",
+      "Whether you seek pain relief, enhanced mobility, stress reduction, or overall mind-body harmony, the approach here focuses on natural, sustainable healing."
+    ],
+    "credentials": ["Osteopathy Practitioner", "Physiotherapy Specialist"],
+    "highlightCredential": "Certified Yoga & Art of Living Instructor",
+    "personName": "Dr. Anisha",
+    "personRole": "Founder & Lead Practitioner"
+  },
+
+  "pricing": {
+    "eyebrow": "no surprises",
+    "title": "What it costs",
+    "note": "Payment is taken at the studio after your session. Nothing is charged when you book, and a bundle is only a reservation until Dr. Anisha activates it.",
+    "singleSession": {
+      "title": "Single session",
+      "priceLabel": "from ₹2,200",
+      "detail": "Pay as you go. No commitment beyond the hour you book.",
+      "includes": [
+        "Full assessment on the first visit",
+        "Hands-on treatment",
+        "Home guidance by email"
+      ]
+    }
+  },
+
+  "visit": {
+    "eyebrow": "finding us",
+    "title": "The studio",
+    "hoursNote": "Closed Sunday and Monday",
+    "gettingHere": "Nearest station is a short auto ride away. Street parking is easiest before 11am."
+  },
+
+  "footer": {
+    "blurb": "Your holistic guide to a healthier, happier, and more balanced life, through osteopathy, physiotherapy, Art of Living programs, and yoga.",
+    "signoff": "where science meets serenity."
+  }
+}
